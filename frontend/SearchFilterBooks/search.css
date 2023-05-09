@@ -65,27 +65,36 @@
   }
   #products {
     display: grid;
-    grid-template-columns: 23% 23% 23% 23%;
-    grid-column-gap: 50px;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-column-gap: 20px;
     grid-row-gap: 10px;
     padding: 2em 0;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
   }
+  
   .card {
     background-color: #ffffff;
     max-width: 15em;
     margin-top: 1em;
     padding: 1em;
     border-radius: 5px;
-    transition: 0.3s;
     box-shadow: 0 0 10px rgba(0,0,0,0.8);
-  }
-  .card:hover{
-    transform: scale(1.1); 
-    cursor: pointer;
-    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+    --bg-color: #fff; /* Fallback color */
+    background-color: var(--bg-color);
   }
   .image-container {
+    max-width: 15em;
+    margin-top: 1em;
+    padding: 1em;
+    border-radius: 5px;
+    transition: 0.7s;
     text-align: center;
+  }
+  .image-container:hover{
+    transform: scale(1.1); 
+    cursor: pointer;
   }
   img {
     max-width: 100%;
