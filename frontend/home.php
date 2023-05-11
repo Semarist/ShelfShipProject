@@ -190,7 +190,7 @@ if (!isset($_SESSION['email'])) {
                     <div class="row gh-1 gv-4 pb-30">
 
                         <div class="col-12 col-sm-6 col-lg-4 show-on-scroll" data-show-delay="100" data-show-duration="500" data-show-distance="20">
-                            <a class="card card-blog card-vertical" href="single-post.html">
+                            <a class="card card-blog card-vertical">
                                 <span class="card-img">
                                     <img src="images/img1.jpg" alt="">
                                 </span>
@@ -202,7 +202,7 @@ if (!isset($_SESSION['email'])) {
                         </div>
 
                         <div class="col-12 col-sm-6 col-lg-4 show-on-scroll" data-show-delay="200" data-show-duration="500" data-show-distance="20">
-                            <a class="card card-blog card-vertical" href="single-post.html">
+                            <a class="card card-blog card-vertical">
                                 <span class="card-img">
                                     <img src="images/img.jpeg" alt="">
                                 </span>
@@ -214,7 +214,7 @@ if (!isset($_SESSION['email'])) {
                         </div>
 
                         <div class="col-12 col-sm-6 col-lg-4 show-on-scroll" data-show-delay="300" data-show-duration="500" data-show-distance="20">
-                            <a class="card card-blog card-vertical" href="single-post.html">
+                            <a class="card card-blog card-vertical">
                                 <span class="card-img">
                                     <img src="images/img3.jpg" alt="">
                                 </span>

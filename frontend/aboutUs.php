@@ -58,7 +58,7 @@
                         </div>
                         <div class="col-12 col-md-6 show-on-scroll" data-show-duration="700">
                             <p class="mb-3">Welcome to our online library store, where you can find a vast collection of books in various genres, all at your fingertips. We are dedicated to providing our customers with an exceptional online shopping experience that offers ease, convenience, and affordability.</p>
-                            <img class="w-100 mt-100" src="assets/images/about/about-us-content.jpg" alt="">
+                            <img class="w-100 mt-100" src="images/about-us-content.jpg" alt="">
                         </div>
                         <div class="col-12 col-md-6 show-on-scroll" data-show-duration="700">
                             <div class="swiper swiper-button-style-3 mt-7" data-swiper-slides="1" data-swiper-speed="600" data-swiper-loop="true" data-swiper-parallax="true">
@@ -66,17 +66,17 @@
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide overflow-hidden">
                                             <div class="swiper-image" data-swiper-parallax-x="20%">
-                                                <img class="w-100" src="assets/images/about/about-us-slide-940-1000.jpg" alt="">
+                                                <img class="w-100" src="images/about-us-slide-940-1000.jpg" alt="">
                                             </div>
                                         </div>
                                         <div class="swiper-slide overflow-hidden">
                                             <div class="swiper-image" data-swiper-parallax-x="20%">
-                                                <img class="w-100" src="assets/images/about/about-us-slide-2-940-1000.jpg" alt="">
+                                                <img class="w-100" src="images/about-us-slide-2-940-1000.jpg" alt="">
                                             </div>
                                         </div>
                                         <div class="swiper-slide overflow-hidden">
                                             <div class="swiper-image" data-swiper-parallax-x="20%">
-                                                <img class="w-100" src="assets/images/about/about-us-slide-3-940-1000.jpg" alt="">
+                                                <img class="w-100" src="images/about-us-slide-3-940-1000.jpg" alt="">
                                             </div>
                                         </div>
                                     </div>
