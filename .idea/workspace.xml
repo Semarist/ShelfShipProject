@@ -5,17 +5,62 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eaafec7f-13cb-4007-aa2d-e7ad34e52601" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/images/logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/images/book1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/images/book10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/images/book11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/images/book12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/images/book13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/images/book14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/images/book15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/images/book16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/images/book17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/images/book18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/images/book19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/images/book2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/images/book20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/images/book21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/images/book22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/images/book23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/images/book24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/images/book25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/images/book26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/images/book3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/images/book4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/images/book5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/images/book6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/images/book7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/images/book8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/images/book9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/images/users/library1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/images/users/library2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/images/users/library3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/images/users/library4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/images/users/user1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/images/users/user2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/images/users/user3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/images/users/user4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/images/users/user5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/images/users/user6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/images/users/user7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/db_conn.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/db_conn.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/aboutUs.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/aboutUs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/libraries.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/libraries.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/navBar.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/navBar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/ownerProfile.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/ownerProfile.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/opt/homebrew/Cellar/php/8.2.5/bin/php" />
   <component name="ProjectId" id="2PFFVx7Av1Ck5Qjj8ezhTlXW7O6" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -27,7 +72,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/semashehadeh/Desktop/webfinal/ShelfShipProject/frontend/images",
+    "last_opened_file_path": "/Users/semashehadeh/Desktop/ShelfShipProject/frontend/images/users",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -38,6 +83,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/images/users" />
       <recent name="$PROJECT_DIR$/frontend/images" />
     </key>
   </component>
@@ -50,6 +96,7 @@
       <option name="presentableId" value="Default" />
       <updated>1683044949939</updated>
       <workItem from="1683044951228" duration="2306000" />
+      <workItem from="1683814038663" duration="5849000" />
     </task>
     <servers />
   </component>

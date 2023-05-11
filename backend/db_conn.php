@@ -2,7 +2,7 @@
 
 $sname= "localhost";
 $unmae= "root";
-$password = "";
+$password = "S21200321";
 $db_name = "shelfship";
 
 $conn = mysqli_connect($sname, $unmae, $password, $db_name);

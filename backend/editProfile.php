@@ -44,7 +44,6 @@
     $sql = "UPDATE users SET name = '$name', email = '$email', phone = '$phone' WHERE id = '$user_id'";
 
     if(mysqli_query($conn, $sql)) {
-
         // Redirect to profile page
         header("Location: ../frontend/profile.php");
         exit();

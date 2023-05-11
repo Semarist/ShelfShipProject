@@ -57,12 +57,10 @@ if (!isset($_SESSION['email'])) {
     $(document).ready(function() {
         // Send an AJAX request to get the list of libraries
         $.getJSON("../backend/getLibraries.php", function(data) {
-            console.log(data); // Debugging statement
             // Loop through the list of libraries and display them
             $.each(data, function(index, library) {
-                console.log('Generating HTML for library ' + index + ':', library);
 
-                var html = '<div class="col-12 col-sm-6 isotope-item">' +
+                var itemTag = '<div class="col-12 col-sm-6 isotope-item">' +
                     '<a class="card card-portfolio card-overlay card-hover-appearance text-white text-center card-image-lg">' +
                     '<span class="card-img">' +
                     '<img src="' + library.image + '" alt="">' +
@@ -73,7 +71,7 @@ if (!isset($_SESSION['email'])) {
                     '</span>' +
                     '</a>' +
                     '</div>';
-                $("#libraries_grid").append(html);
+                $("#libraries_grid").append(itemTag);
             });
         });
     });

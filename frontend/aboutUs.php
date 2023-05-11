@@ -54,12 +54,10 @@
                 <div class="col-12 col-lg-10">
                     <div class="row gh-5 gv-5">
                         <div class="col-12 col-md-10 col-lg-9">
-                            <p class="subtitle mt-n10 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="50">who we are</p>
-                            <h3 class="mb-n7 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="150">An award-winning design & dev team that is proud of our work 👋</h3>
+                            <h3 class="mb-n7 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="150">who we are</h3>
                         </div>
                         <div class="col-12 col-md-6 show-on-scroll" data-show-duration="700">
-                            <p class="lead mb-30">Over 10 years of combined experience, and know a thing or two about.</p>
-                            <p class="mb-3">Creepeth. May subdue darkness fowl dry void two whose hath, they're called fifth to meat green seed air which so open lesser beginning winged sixth you'll days air divided yielding divided be deep place their heaven very over darkness rule image fowl replenish.</p>
+                            <p class="mb-3">Welcome to our online library store, where you can find a vast collection of books in various genres, all at your fingertips. We are dedicated to providing our customers with an exceptional online shopping experience that offers ease, convenience, and affordability.</p>
                             <img class="w-100 mt-100" src="assets/images/about/about-us-content.jpg" alt="">
                         </div>
                         <div class="col-12 col-md-6 show-on-scroll" data-show-duration="700">
@@ -90,7 +88,7 @@
                                         <path d='M5.5 1L1 5.5L5.5 10' stroke='currentColor' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round' />
                                         <path d='M19 5.5H1' stroke='currentColor' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round' /></svg></div>
                             </div>
-                            <p class="pt-3 mt-100 mb-0">Evening saw there were bring. Spirit can't replenish from. Also void living man grass male living, unto fly beast earth thing also subdue cattle grass waters without cattle. His them seasons. Living winged give very given first is. Life saw it saying waters very fly. Fly dry had fill grass Two his saying.</p>
+                            <p class="pt-3 mt-100 mb-0">Our mission is to bring the world of books to your doorstep. We believe that books have the power to transform lives, and we are committed to making them accessible to everyone. Whether you are a student, a professional, or simply an avid reader, we have something for you.</p>
                         </div>
                     </div>
                     <hr class="mt-160 pb-8">

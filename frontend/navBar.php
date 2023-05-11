@@ -11,7 +11,7 @@
         </a>
         <ul class="nav navbar-nav">
             <li class="nav-item navbar-dropdown navbar-dropdown-mega">
-                <a href="home.PHP" class="nav-link">
+                <a href="home.php" class="nav-link">
                     <span class="nav-link-name">Home</span>
                     <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1 9L5 5L1 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
