@@ -73,7 +73,7 @@
     <title>Shelf Ship</title>
     <meta name="description" content="Themebau">
     <meta name="author" content="RunWebRun">
-    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <link rel="icon" type="image/svg" href="images/logo.svg">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
@@ -96,7 +96,7 @@
     <div class="container pt-130 pb-130 mt-n10">
         <div class="row gh-1 gv-1 align-items-center align-items-lg-stretch flex-column flex-lg-row">
             <div class="col-12 col-md-6 col-lg-5 shape-parent lines-style-5 order-1 show-on-scroll" data-show-duration="600" data-show-distance="10" data-show-delay="100">
-                <img class="w-100 rounded-circle" src="assets/images/persons/brian-newton-940-940.jpg" alt="">
+                <img class="w-100 rounded-circle" src="<?php echo $user['image']?>" alt="">
                 <div class="shape justify-content-end">
                     <svg class="mt-n60" width="125" height="125" viewBox="0 0 125 125" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="62.5" cy="62.5" r="62.5" fill="#F5F5F5" />

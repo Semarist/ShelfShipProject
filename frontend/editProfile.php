@@ -33,6 +33,8 @@
     <meta name="description" content="Shelf Ship">
     <meta name="author" content="RunWebRun">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/svg" href="images/logo.svg">
+
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
     <!-- START: Styles -->

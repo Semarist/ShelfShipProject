@@ -12,6 +12,8 @@ session_start();
     <meta name="description" content="Shelf Ship">
     <meta name="author" content="RunWebRun">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/svg" href="images/logo.svg">
+
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
     <!-- START: Styles -->
@@ -54,11 +56,12 @@ session_start();
                                 </div>
                             </div>
                             <button class="btn btn-white btn-with-ball mt-90 show-on-scroll" type="submit" name="button" data-show-distance="10" data-show-duration="500" data-show-delay="300">submit</button>
+                            <div class="mt-40">
+                                <a href="register.php" class=" text-white mt-5 mb-150" data-show-duration="500" data-show-distance="10">Create a new account.</a>
+                            </div>
                         </form>
                     </div>
                 </div>
-                <a href="register.php" class=" text-white mt-5 mb-150" data-show-duration="500" data-show-distance="10">Create a new account.</a>
-
             </div>
         </div>
     </div>
