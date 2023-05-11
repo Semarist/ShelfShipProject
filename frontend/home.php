@@ -34,7 +34,7 @@ if (!isset($_SESSION['email'])) {
         <script src="assets/vendor/jquery/dist/jquery.min.js"></script>
     </head>
     <body>
-    <?php include "navbar.php"; ?>
+    <?php include "navBar.php"; ?>
 
     <div class="banner banner-light shape-parent">
             <div class="shape align-items-end mb-n160">
