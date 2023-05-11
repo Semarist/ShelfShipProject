@@ -1,3 +1,29 @@
+<?php
+    include "../backend/db_conn.php";
+    session_start();
+
+    if (!isset($_SESSION['email'])) {
+        header("Location: login.php");
+        exit();
+    }
+
+    //get user details from database
+    $user_id = $_SESSION['id'];
+    // Prepare the SQL query
+    $sql = 'SELECT * FROM users WHERE id =' . $user_id;
+
+    // Execute the query
+    $result = mysqli_query($conn, $sql);
+
+    // Check if there is a result
+    if(mysqli_num_rows($result) > 0) {
+        // Retrieve the user data
+        $user = mysqli_fetch_assoc($result);
+
+    } else {
+        echo "No data found for this user";
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,41 +55,28 @@
 
 <div class="auth_container">
     <div class="content-wrap">
+        <?php if (isset($_SESSION['error'])) { ?>
+            <div class="error_popup"><?php echo $_SESSION['error']; ?></div>
+        <?php } ?>
+        <?php unset($_SESSION['error']); ?>
         <div class="py-160 bg-dark">
             <div class="container">
                 <div class="row justify-content-center text-white">
                     <div class="col-lg-10">
-                        <h1 class="display-4 text-white mt-5 mb-130 show-on-scroll" data-show-duration="500" data-show-distance="10">Register.</h1>
-                        <form action="#">
-                            <p class="lead font-weight-medium mb-30 mt-60 pt-9">Choose the User Type:</p>
-                            <div class="row gh-xs gv-xs">
-                                <div class="col-auto show-on-scroll" data-show-distance="10" data-show-duration="500" data-show-delay="100">
-                                    <input class="checkbox-btn" type="checkbox" id="checkbox_client">
-                                    <label for="checkbox_client"><span>Client</span></label>
-                                </div>
-                                <div class="col-auto show-on-scroll" data-show-distance="10" data-show-duration="500" data-show-delay="150">
-                                    <input class="checkbox-btn" type="checkbox" id="checkbox_owner">
-                                    <label for="checkbox_owner"><span>Owner</span></label>
-                                </div>
-                            </div>
+                        <h1 class="display-4 text-white mt-5 mb-130 show-on-scroll" data-show-duration="500" data-show-distance="10">Edit Profile.</h1>
+                        <form action="../backend/editProfile.php" method="post">
                             <div class="row gh-1 gv-3 mt-30">
                                 <div class="col-12 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="!00">
-                                    <input class="form-control form-control-lg form-control-white" type="name" placeholder="Your Name *">
+                                    <input type="name" name="name" value="<?php echo $user['name']?>" class="form-control form-control-lg form-control-white" placeholder="Your Name ">
                                 </div>
                                 <div class="col-12 col-md-6 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="150">
-                                    <input type="email" class="form-control form-control-lg form-control-white" placeholder="Your Email *">
+                                    <input type="email" name="email" value="<?php echo $user['email']?>" class="form-control form-control-lg form-control-white" placeholder="Your Email">
                                 </div>
                                 <div class="col-12 col-md-6 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="200">
-                                    <input type="phone" class="form-control form-control-lg form-control-white" placeholder="Your Phone *">
-                                </div>
-                                <div class="col-12 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="250">
-                                    <input type="password" class="form-control form-control-lg form-control-white" placeholder="Password">
-                                </div>
-                                <div class="col-12 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="250">
-                                    <input type="password" class="form-control form-control-lg form-control-white" placeholder="Confirm Password">
+                                    <input type="phone" name="phone" value="<?php echo $user['phone']?>" class="form-control form-control-lg form-control-white" placeholder="Your Phone">
                                 </div>
                             </div>
-                            <button class="btn btn-white btn-with-ball mt-90 show-on-scroll" type="button" name="button" data-show-distance="10" data-show-duration="500" data-show-delay="300">submit</button>
+                            <button class="btn btn-white btn-with-ball mt-90 show-on-scroll" type="submit" name="button" data-show-distance="10" data-show-duration="500" data-show-delay="300">submit</button>
                         </form>
                     </div>
                 </div>

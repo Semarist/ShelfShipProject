@@ -3,8 +3,7 @@
 $sname= "localhost";
 $unmae= "root";
 $password = "";
-
-$db_name = "test_db";
+$db_name = "shelfship";
 
 $conn = mysqli_connect($sname, $unmae, $password, $db_name);
 

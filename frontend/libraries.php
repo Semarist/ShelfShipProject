@@ -1,11 +1,23 @@
+<?php
+include '../backend/db_conn.php';
+
+session_start();
+
+if (!isset($_SESSION['email'])) {
+    header("Location: login.php");
+    exit();
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Shelf Ship</title>
-    <meta name="description" content="Shelf Ship">
+    <meta name="description" content="Themebau">
     <meta name="author" content="RunWebRun">
+    <link rel="icon" type="image/svg" href="images/logo.svg">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
@@ -20,40 +32,52 @@
     <link rel="stylesheet" href="assets/css/custom.css">
     <!-- END: Styles -->
     <!-- jQuery -->
-    <link rel="stylesheet" href="styles.css">
-
     <script src="assets/vendor/jquery/dist/jquery.min.js"></script>
 </head>
-
 <body>
-
-<div class="auth_container">
-    <div class="content-wrap">
-
-        <div class="py-160 bg-dark">
-            <div class="container">
-                <div class="row justify-content-center text-white">
-                    <div class="col-lg-10">
-                        <h1 class="display-4 text-white mt-5 mb-130 show-on-scroll" data-show-duration="500" data-show-distance="10">Login.</h1>
-                        <form action="#">
-                            <p class="lead font-weight-medium mb-30 mt-60 pt-9">Enter Your Credentials:</p>
-                            <div class="row gh-1 gv-3 mt-30">
-                                <div class="col-12 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="250">
-                                    <input type="email" class="form-control form-control-lg form-control-white" placeholder="Email">
-                                </div>
-                                <div class="col-12 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="250">
-                                    <input type="password" class="form-control form-control-lg form-control-white" placeholder="Password">
-                                </div>
-                            </div>
-                            <button class="btn btn-white btn-with-ball mt-90 show-on-scroll" type="button" name="button" data-show-distance="10" data-show-duration="500" data-show-delay="300">submit</button>
-                        </form>
-                    </div>
+<?php include "navBar.php"; ?>
+<div class="content-wrap">
+    <div class="container isotope">
+        <?php if (isset($_SESSION['success'])) { ?>
+            <div class="success_popup"><?php echo $_SESSION['success']; ?></div>
+        <?php } ?>
+        <?php unset($_SESSION['success']); ?>
+        <h1 class="mt-160 py-10 mb-100 text-center show-on-scroll" data-show-duration="500" data-show-distance="10">Libraries</h1>
+        <div class="container isotope mt-130">
+            <div class="pt-30 show-on-scroll" data-show-duration="800">
+                <div id="libraries_grid" class="row gh-1 gv-1 isotope-grid mb-100">
+                    <!-- Libraries will be displayed here using ajax-->
                 </div>
             </div>
         </div>
     </div>
 </div>
 <!-- START: Scripts -->
+<script>
+    $(document).ready(function() {
+        // Send an AJAX request to get the list of libraries
+        $.getJSON("../backend/getLibraries.php", function(data) {
+            console.log(data); // Debugging statement
+            // Loop through the list of libraries and display them
+            $.each(data, function(index, library) {
+                console.log('Generating HTML for library ' + index + ':', library);
+
+                var html = '<div class="col-12 col-sm-6 isotope-item">' +
+                    '<a class="card card-portfolio card-overlay card-hover-appearance text-white text-center card-image-lg">' +
+                    '<span class="card-img">' +
+                    '<img src="' + library.image + '" alt="">' +
+                    '<span class="background-color" style="background-color: rgba(14, 14, 14, 0.7);"></span>' +
+                    '</span>' +
+                    '<span class="card-img-overlay">' +
+                    '<span class="card-title h4">' + library.name + '</span>' +
+                    '</span>' +
+                    '</a>' +
+                    '</div>';
+                $("#libraries_grid").append(html);
+            });
+        });
+    });
+</script>
 <!-- Object Fit Polyfill -->
 <script src="assets/vendor/object-fit-images/dist/ofi.min.js"></script>
 <!-- Popper -->
