@@ -2,12 +2,7 @@
 <?php
 
 include "../backend/db_conn.php";
-session_start();
 
-if (!isset($_SESSION['email'])) {
-    header("Location: login.php");
-    exit();
-}
 
 if (isset($_GET['id'])){
     $book_id = $_GET['id'];

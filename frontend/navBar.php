@@ -78,7 +78,7 @@
                 <div class="navbar-body">
                     <ul class="nav navbar-nav navbar-nav-collapse">
                         <li class="nav-item navbar-collapse active">
-                            <a href="#navbarCollapseHome" class="nav-link collapsed" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="navbarCollapseHome">
+                            <a href="home.php" class="nav-link collapsed" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="navbarCollapseHome">
                                 <span class="nav-link-name">home</span>
                                 <svg class="collapse-icon" width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M1 11L6 6L1 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
@@ -86,7 +86,7 @@
                             </a>
                         </li>
                         <li class="nav-item navbar-collapse">
-                            <a href="#navbarCollapseProjects" class="nav-link collapsed" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="navbarCollapseProjects">
+                            <a href="books.php" class="nav-link collapsed" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="navbarCollapseProjects">
                                 <span class="nav-link-name">Books</span>
                                 <svg class="collapse-icon" width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M1 11L6 6L1 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
@@ -94,34 +94,28 @@
                             </a>
                         </li>
                         <li class="nav-item navbar-collapse">
-                            <a href="#navbarCollapsePages" class="nav-link collapsed" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="navbarCollapsePages">
-                                <span class="nav-link-name">Sign in</span>
+                            <a href="sendRequest.php" class="nav-link collapsed" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="navbarCollapsePages">
+                                <span class="nav-link-name">Requests</span>
                                 <svg class="collapse-icon" width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M1 11L6 6L1 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                 </svg>
                             </a>
                         </li>
                         <li class="nav-item navbar-collapse">
-                            <a href="#navbarCollapseContact" class="nav-link collapsed" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="navbarCollapseContact">
-                                <span class="nav-link-name">Register</span>
+                            <a href="profile.php" class="nav-link collapsed" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="navbarCollapseContact">
+                                <span class="nav-link-name">Profile</span>
                                 <svg class="collapse-icon" width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M1 11L6 6L1 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                 </svg>
                             </a>
-                            <div class="navbar-collapse-menu collapse" id="navbarCollapseContact">
-                                <ul class="nav navbar-nav">
-                                    <li class="nav-item">
-                                        <a href="contact-1.html" class="nav-link">
-                                            <span class="nav-link-name">Contact 1</span>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="contact-2.html" class="nav-link">
-                                            <span class="nav-link-name">Contact 2</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
+                        </li>
+                        <li class="nav-item navbar-collapse">
+                            <a href="../backend/logout.php" class="nav-link collapsed" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="navbarCollapseContact">
+                                <span class="nav-link-name">Logout</span>
+                                <svg class="collapse-icon" width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 11L6 6L1 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -132,17 +126,11 @@
                     <div class="mb-60 text-white">
                         <p class="lead mb-17 font-weight-medium">Contact info:</p>
                         <ul class="list-group borderless font-size-17">
-                            <li class="list-group-item">Email: <a href="mailto:hello@themebau.com?subject=Test%20Address%20Email" class=text-white>hello@themebau.com</a></li>
+                            <li class="list-group-item">Email: <a href="mailto:hello@themebau.com?subject=Test%20Address%20Email" class=text-white>hello@ShelfShip.com</a></li>
                             <li class="list-group-item">Phone: <a href="callto:+1202-358-0309" class=text-white>+1 202-358-0309</a></li>
                         </ul>
                     </div>
-                    <div class="mb-60 text-white">
-                        <p class="lead mb-17 font-weight-medium">Address:</p>
-                        <ul class="list-group borderless font-size-17">
-                            <li class="list-group-item">2260 Lady Bug Drive,</li>
-                            <li class="list-group-item">New York, NY 10011</li>
-                        </ul>
-                    </div>
+
                     <ul class="nav nav-gap-sm navbar-nav nav-social align-items-center mt-n10 text-white">
                         <li class="nav-item">
                             <a href="https://facebook.com/runwebrun" class="nav-link">
